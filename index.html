@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Product Landing Page</title>
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link href="landing-page.css" rel="stylesheet" type="text/css">
+    </head>
+    
+    <body>
+        <div id="page-container"> <!-- Overall Div Page Container -->
+        <header id="header"> <!-- Page Header -->
+            <img id="header-img" src="https://logodownload.org/wp-content/uploads/2016/10/jbl-logo-7-1.png" alt="JM Logo"/>
+            <h1>Headphones</h1> <!-- Page Title -->
+            <nav id="nav-bar"> <!-- Navigation Bar -->
+            <button><a class="nav-link" href="#features">Features</a></button>
+            <button><a class="nav-link" href="#how-it-works">How It Works</a></button>
+            <button><a class="nav-link" href="#pricing">Pricing</a></button>
+            </nav>
+        </header>
+        <br>
+        
+        <div class="form-container"> <!-- Form Container -->
+            <h2>No matter the style, JBL headphones has you covered.</h2> <!-- Form Title -->
+            <p>Subscribe to our mailing list for news alerts and offers!</p>
+            <form id="form" method="post" action="https://www.freecodecamp.com/email-submit">
+            <input id="email" type="email" name="email" placeholder="Please enter your email:" required/>
+            <input id="submit" type="submit" value="Subscribe"/>
+            </form>
+        </div>
+        <br>
+    
+        <div class="contents"> <!-- Content Container -->
+            <section id="features"> <!-- Features Section -->
+            <div class="list"> <!-- Quality Feature -->
+                <div class="icon">
+                <i class="material-icons">headset_mic</i>
+                </div>
+                <div class="discription">
+                <h2>Quality</h2>
+                <p>We produce state-of-the art headphones that deliver you an experience like no other through our years of experience buildng and designing headphones!</p>
+                </div>
+            </div>
+            <div class="list"> <!-- Technology Feature -->
+                <div class="icon">
+                <i class="material-icons">build</i>
+                </div>
+                <div class="discription">
+                <h2>Technology</h2>
+                <p> Music is an experience and JBL delivers uncompromising sound with wired and wireless technology that compliments your style on the go!</p>
+                </div>
+            </div>
+            <div class="list"> <!-- Shipping Feature -->
+                <div class="icon">
+                <i class="material-icons">shopping_cart</i>
+                </div>
+                <div class="discription">
+                <h2>3-5 Day Shipping</h2>
+                <p>We deliver headphones to any destination across the world within 3-5 business working days. We also provide 24/7 customer service support!</p>
+                </div>
+            </div>
+            </section>
+            <br>
+            
+            <section id="how-it-works"> <!-- How It Works Section -->
+            <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/1ulxVmJtz_E" frameborder="0" allowfullscreen></iframe>
+            </section>
+            <br>
+            
+            <section id="pricing"> <!-- Pricing Section -->
+            <div id="live">
+                <div class="option">
+                JBL Live 660NC
+                </div>
+                <img src="images/jbl_live_460nc_product_image_group.jpg" alt="JBL Live 660NC wireless headphones"/>
+                <h3>$199.95 each</h3>
+                <ul>
+                <li>JBL Signature Sound</li>
+                <li>Up to 50 hours battery life</li>
+                <li>Hands-Free perfect stereo calls</li>
+                </ul>
+                <button class="btn">Select</button>
+            </div>
+            <div id="tune">
+                <div class="option">
+                JBL Tune 660NC
+                </div>
+                <img src="images/jbl_tune_660nc.png" alt="JBL Tune 660NC headphones"/>
+                <h3>$99.95 each</h3>
+                <ul>
+                <li>Active Noise Cancelling</li>
+                <li>Up to 44 hours battery life</li>
+                <li>Fast Pair enbaled by Google</li>
+                </ul>
+                <button class="btn">Select</button>
+            </div>
+            <div id="quantum">
+                <div class="option">
+                JBL Quantum 800
+                </div>
+                <img src="images/JBL_Quantum 800_.png" alt="JBL Quantum 800 gaming headphones"/>
+                <h3>$199.95 each</h3>
+                <ul>
+                <li>Play even longer</li>
+                <li>DISCORD Certified</li>
+                <li>Compatible with all gaming</li>
+                </ul>
+                <button class="btn">Select</button>
+            </div>
+            </section>
+            <br>
+            
+        </div>
+        <br>
+    
+        </div>
+    </body>
+    
+    <footer> <!-- Footer Section -->
+        <span>&copy; 2021 Built by: Richard Orido</span>
+    </footer>
+</html>
